@@ -105,7 +105,7 @@ def user_details(user_id):
         return "User not found", 404 
     return render_template('user_detail.html', user=user)
 
-# ... Your route code will go here ...
+
 
 
 
