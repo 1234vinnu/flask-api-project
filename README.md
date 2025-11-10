@@ -35,7 +35,11 @@ Set your Database details in app.py file.
 		    'host': '127.0.0.1', 		//Host Address URL
 		    'database': 'users' 		//Database table name
 		}
-4. Git Workflow and Contribution
+SQL Queries: 1.) SELECT id, name, email, role FROM users
+			 2.) INSERT INTO users (name, email, role) VALUES (%s, %s, %s)
+			 3.) SELECT id, name, email, role FROM users WHERE id = %s
+		
+3. Git Workflow and Contribution
 This project follows the Feature Branch Workflow to manage contributions.
 3.1. Contribution Steps
 	1	Sync Local Main: Ensure your local main branch is up-to-date with the remote main. git checkout main
